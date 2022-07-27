@@ -9,7 +9,7 @@ return {
   spacing = 0,
   margin = 0,
   columns = 0,
-  objectalignment = "center",
+  objectalignment = "topleft",
   tilerendersize = "tile",
   fillmode = "stretch",
   tileoffset = {

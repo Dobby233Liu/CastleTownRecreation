@@ -11,7 +11,9 @@ return {
   tileheight = 40,
   nextlayerid = 9,
   nextobjectid = 25,
-  properties = {},
+  properties = {
+    ["music"] = "castletown"
+  },
   tilesets = {
     {
       name = "castle_town_bg",
