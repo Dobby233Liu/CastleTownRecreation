@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 6,
-  nextobjectid = 7,
+  nextobjectid = 10,
   backgroundcolor = { 0, 0, 0 },
   properties = {
     ["music"] = "castletown"

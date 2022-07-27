@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 22,
-  nextobjectid = 96,
+  nextobjectid = 97,
   backgroundcolor = { 0, 0, 0 },
   properties = {
     ["music"] = "castletown",
@@ -751,6 +751,22 @@ return {
           gid = 324,
           visible = true,
           properties = {}
+        },
+        {
+          id = 96,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 1068,
+          y = 815,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text1"] = "* Mama Miba![wait:5] Welcome to TOP Bakery!",
+            ["text2"] = "* Our special chefs spin baked goods at the TOP of their class!"
+          }
         }
       }
     },
