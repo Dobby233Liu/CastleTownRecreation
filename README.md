@@ -7,3 +7,5 @@ git clone https://github.com/Dobby233Liu/CastleTownRecreation.git path/to/mods/c
 ## License
 
 [MIT License](LICENSE.txt)
+
+Original assets ripped from DELTARUNE, (c) Toby Fox 2018-2022
