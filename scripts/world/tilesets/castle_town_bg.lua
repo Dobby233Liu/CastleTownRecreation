@@ -9,7 +9,7 @@ return {
   spacing = 0,
   margin = 0,
   columns = 0,
-  objectalignment = "bottomleft",
+  objectalignment = "unspecified",
   tilerendersize = "tile",
   fillmode = "stretch",
   tileoffset = {
