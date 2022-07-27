@@ -4,8 +4,8 @@ return {
   tiledversion = "1.9.0",
   name = "castle_town_bg",
   class = "",
-  tilewidth = 680,
-  tileheight = 400,
+  tilewidth = 640,
+  tileheight = 318,
   spacing = 0,
   margin = 0,
   columns = 0,
@@ -186,12 +186,6 @@ return {
       height = 83
     },
     {
-      id = 21,
-      image = "../../../assets/sprites/world/castle_town/castle.png",
-      width = 680,
-      height = 400
-    },
-    {
       id = 22,
       image = "../../../assets/sprites/world/castle_town/wall_l.png",
       width = 640,
@@ -250,6 +244,12 @@ return {
       image = "../../../assets/sprites/world/castle_town/bakery.png",
       width = 196,
       height = 234
+    },
+    {
+      id = 32,
+      image = "../../../assets/sprites/world/castle_town/bakery_table.png",
+      width = 158,
+      height = 112
     }
   }
 }

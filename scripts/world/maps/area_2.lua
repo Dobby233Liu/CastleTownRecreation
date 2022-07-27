@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 22,
-  nextobjectid = 97,
+  nextobjectid = 98,
   backgroundcolor = { 0, 0, 0 },
   properties = {
     ["music"] = "castletown",
@@ -271,21 +271,6 @@ return {
       }
     },
     {
-      type = "objectgroup",
-      draworder = "topdown",
-      id = 21,
-      name = "objects_lower",
-      class = "",
-      visible = true,
-      opacity = 1,
-      offsetx = 0,
-      offsety = 0,
-      parallaxx = 1,
-      parallaxy = 1,
-      properties = {},
-      objects = {}
-    },
-    {
       type = "tilelayer",
       x = 0,
       y = 0,
@@ -434,7 +419,10 @@ return {
           height = 0,
           rotation = 0,
           visible = true,
-          properties = {}
+          properties = {
+            ["text1"] = "* After a long day,[wait:5] the town has grown once again.",
+            ["text2"] = "* You are filled with a certain power..."
+          }
         },
         {
           id = 21,
@@ -561,7 +549,7 @@ return {
           visible = true,
           properties = {
             ["map"] = "castle_dojo",
-            ["marker"] = "entry_dojo"
+            ["marker"] = "entry"
           }
         },
         {
@@ -593,7 +581,7 @@ return {
           visible = true,
           properties = {
             ["map"] = "castle_cafe",
-            ["marker"] = "entry_cafe"
+            ["marker"] = "entry"
           }
         },
         {
@@ -609,7 +597,7 @@ return {
           visible = true,
           properties = {
             ["map"] = "castle_bakery",
-            ["marker"] = "entry_bakery"
+            ["marker"] = "entry"
           }
         },
         {
