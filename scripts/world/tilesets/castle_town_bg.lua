@@ -23,7 +23,7 @@ return {
   },
   properties = {},
   wangsets = {},
-  tilecount = 41,
+  tilecount = 45,
   tiles = {
     {
       id = 3,
@@ -350,6 +350,30 @@ return {
       image = "../../../assets/sprites/world/castle_town/cauldron_3.png",
       width = 60,
       height = 57
+    },
+    {
+      id = 45,
+      image = "../../../assets/sprites/world/castle_town/door_boarded.png",
+      width = 198,
+      height = 154
+    },
+    {
+      id = 46,
+      image = "../../../assets/sprites/world/castle_town/door_kris.png",
+      width = 106,
+      height = 128
+    },
+    {
+      id = 47,
+      image = "../../../assets/sprites/world/castle_town/door_lancer.png",
+      width = 132,
+      height = 182
+    },
+    {
+      id = 48,
+      image = "../../../assets/sprites/world/castle_town/door_susie.png",
+      width = 126,
+      height = 184
     }
   }
 }
