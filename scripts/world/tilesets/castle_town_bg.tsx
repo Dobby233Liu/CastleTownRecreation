@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.0" name="castle_town_bg" tilewidth="640" tileheight="318" tilecount="35" columns="0">
+<tileset version="1.9" tiledversion="1.9.0" name="castle_town_bg" tilewidth="640" tileheight="318" tilecount="41" columns="0">
  <editorsettings>
   <export target="castle_town_bg.lua" format="lua"/>
  </editorsettings>
@@ -124,5 +124,33 @@
  </tile>
  <tile id="38">
   <image width="25" height="33" source="../../../assets/sprites/world/castle_town/book_pillar.png"/>
+ </tile>
+ <tile id="39">
+  <image width="200" height="160" source="../../../assets/sprites/world/castle_town/cauldron_under_glow_1.png"/>
+  <animation>
+   <frame tileid="39" duration="600"/>
+   <frame tileid="40" duration="600"/>
+   <frame tileid="41" duration="600"/>
+  </animation>
+ </tile>
+ <tile id="40">
+  <image width="200" height="160" source="../../../assets/sprites/world/castle_town/cauldron_under_glow_2.png"/>
+ </tile>
+ <tile id="41">
+  <image width="200" height="160" source="../../../assets/sprites/world/castle_town/cauldron_under_glow_3.png"/>
+ </tile>
+ <tile id="42">
+  <image width="60" height="57" source="../../../assets/sprites/world/castle_town/cauldron_1.png"/>
+  <animation>
+   <frame tileid="42" duration="600"/>
+   <frame tileid="43" duration="600"/>
+   <frame tileid="44" duration="600"/>
+  </animation>
+ </tile>
+ <tile id="43">
+  <image width="60" height="57" source="../../../assets/sprites/world/castle_town/cauldron_2.png"/>
+ </tile>
+ <tile id="44">
+  <image width="60" height="57" source="../../../assets/sprites/world/castle_town/cauldron_3.png"/>
  </tile>
 </tileset>

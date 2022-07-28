@@ -30,7 +30,7 @@ return {
     },
     {
       name = "castle_town_overlay",
-      firstgid = 352,
+      firstgid = 358,
       filename = "../tilesets/castle_town_overlay.tsx",
       exportfilename = "../tilesets/castle_town_overlay.lua"
     }
@@ -698,9 +698,9 @@ return {
           class = "",
           shape = "rectangle",
           x = 640,
-          y = 265,
+          y = 305,
           width = 50,
-          height = 66,
+          height = 26,
           rotation = 0,
           visible = true,
           properties = {

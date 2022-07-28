@@ -9,7 +9,7 @@
  </properties>
  <tileset firstgid="1" source="../tilesets/castle_town.tsx"/>
  <tileset firstgid="313" source="../tilesets/castle_town_bg.tsx"/>
- <tileset firstgid="352" source="../tilesets/castle_town_overlay.tsx"/>
+ <tileset firstgid="358" source="../tilesets/castle_town_overlay.tsx"/>
  <layer id="1" name="tiles" width="38" height="40">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -170,7 +170,7 @@
     <property name="text2" value="* Our special chefs spin baked goods at the TOP of their class!"/>
    </properties>
   </object>
-  <object id="100" name="interactable" x="640" y="265" width="50" height="66">
+  <object id="100" name="interactable" x="640" y="305" width="50" height="26">
    <properties>
     <property name="cutscene" value="castle_town.book_pillar"/>
     <property name="lmao" value="I'm using a cutscene and no Kristal developer can stop me"/>

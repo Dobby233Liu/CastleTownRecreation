@@ -23,7 +23,7 @@ return {
   },
   properties = {},
   wangsets = {},
-  tilecount = 35,
+  tilecount = 41,
   tiles = {
     {
       id = 3,
@@ -286,6 +286,70 @@ return {
       image = "../../../assets/sprites/world/castle_town/book_pillar.png",
       width = 25,
       height = 33
+    },
+    {
+      id = 39,
+      image = "../../../assets/sprites/world/castle_town/cauldron_under_glow_1.png",
+      width = 200,
+      height = 160,
+      animation = {
+        {
+          tileid = 39,
+          duration = 600
+        },
+        {
+          tileid = 40,
+          duration = 600
+        },
+        {
+          tileid = 41,
+          duration = 600
+        }
+      }
+    },
+    {
+      id = 40,
+      image = "../../../assets/sprites/world/castle_town/cauldron_under_glow_2.png",
+      width = 200,
+      height = 160
+    },
+    {
+      id = 41,
+      image = "../../../assets/sprites/world/castle_town/cauldron_under_glow_3.png",
+      width = 200,
+      height = 160
+    },
+    {
+      id = 42,
+      image = "../../../assets/sprites/world/castle_town/cauldron_1.png",
+      width = 60,
+      height = 57,
+      animation = {
+        {
+          tileid = 42,
+          duration = 600
+        },
+        {
+          tileid = 43,
+          duration = 600
+        },
+        {
+          tileid = 44,
+          duration = 600
+        }
+      }
+    },
+    {
+      id = 43,
+      image = "../../../assets/sprites/world/castle_town/cauldron_2.png",
+      width = 60,
+      height = 57
+    },
+    {
+      id = 44,
+      image = "../../../assets/sprites/world/castle_town/cauldron_3.png",
+      width = 60,
+      height = 57
     }
   }
 }

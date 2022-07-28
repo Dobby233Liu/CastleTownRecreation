@@ -19,5 +19,10 @@ return {
         else
             cutscene:text("* (There's no time to read books.)")
         end
+    end,
+    cauldron = function(cutscene, me, chara, facing)
+        cutscene:text("* How 'bout a strawberry cake as a room-warming gift?", "surprise_smile", "susie")
+        cutscene:text("* There's a slice of cake in your fridge,[wait:5] Susie!", "pleased", "ralsei")
+        cutscene:text("* But it's not cauldron-fresh!", "blush", "susie")
     end
 }
