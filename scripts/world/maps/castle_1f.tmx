@@ -5,7 +5,7 @@
  </editorsettings>
  <tileset firstgid="1" source="../tilesets/castle_inside.tsx"/>
  <tileset firstgid="129" source="../tilesets/castle_town_bg.tsx"/>
- <layer id="1" name="tiles" width="31" height="12" locked="1">
+ <layer id="1" name="tiles" width="31" height="12">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,88,89,89,89,89,89,90,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,2,75,76,77,78,79,5,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -21,15 +21,21 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,82,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="objects_decor">
-  <object id="1" gid="168" x="520" y="400" width="200" height="160"/>
- </objectgroup>
  <objectgroup color="#ff55ff" id="5" name="objects_decor_above">
-  <object id="10" gid="171" x="560" y="352" width="120" height="112"/>
-  <object id="32" name="interactable" x="568" y="310" width="102" height="30">
-   <properties>
-    <property name="cutscene" value="castle_town.cauldron"/>
-   </properties>
+  <object id="1" gid="168" x="520" y="400" width="200" height="160" visible="0"/>
+ </objectgroup>
+ <objectgroup color="#5500ff" id="10" name="markers">
+  <object id="33" name="spawn" x="619" y="434">
+   <point/>
+  </object>
+  <object id="34" name="entry" x="619" y="434">
+   <point/>
+  </object>
+  <object id="35" name="entry_bf" x="899" y="314">
+   <point/>
+  </object>
+  <object id="36" name="entry_2f" x="299" y="314">
+   <point/>
   </object>
  </objectgroup>
  <objectgroup color="#ff00ff" id="9" name="objects">
@@ -66,19 +72,11 @@
     <property name="marker" value="entry"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup color="#5500ff" id="10" name="markers">
-  <object id="33" name="spawn" x="619" y="434">
-   <point/>
-  </object>
-  <object id="34" name="entry" x="619" y="434">
-   <point/>
-  </object>
-  <object id="35" name="entry_bf" x="899" y="314">
-   <point/>
-  </object>
-  <object id="36" name="entry_2f" x="299" y="314">
-   <point/>
+  <object id="10" gid="171" x="560" y="352" width="120" height="112"/>
+  <object id="32" name="interactable" x="568" y="310" width="102" height="30">
+   <properties>
+    <property name="cutscene" value="castle_town.cauldron"/>
+   </properties>
   </object>
  </objectgroup>
  <objectgroup color="#0000ff" id="8" name="collision">

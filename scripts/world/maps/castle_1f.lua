@@ -63,8 +63,8 @@ return {
     {
       type = "objectgroup",
       draworder = "topdown",
-      id = 4,
-      name = "objects_decor",
+      id = 5,
+      name = "objects_decor_above",
       class = "",
       visible = true,
       opacity = 1,
@@ -85,7 +85,7 @@ return {
           height = 160,
           rotation = 0,
           gid = 168,
-          visible = true,
+          visible = false,
           properties = {}
         }
       }
@@ -93,8 +93,8 @@ return {
     {
       type = "objectgroup",
       draworder = "topdown",
-      id = 5,
-      name = "objects_decor_above",
+      id = 10,
+      name = "markers",
       class = "",
       visible = true,
       opacity = 1,
@@ -105,33 +105,56 @@ return {
       properties = {},
       objects = {
         {
-          id = 10,
-          name = "",
+          id = 33,
+          name = "spawn",
           class = "",
-          shape = "rectangle",
-          x = 560,
-          y = 352,
-          width = 120,
-          height = 112,
+          shape = "point",
+          x = 619,
+          y = 434,
+          width = 0,
+          height = 0,
           rotation = 0,
-          gid = 171,
           visible = true,
           properties = {}
         },
         {
-          id = 32,
-          name = "interactable",
+          id = 34,
+          name = "entry",
           class = "",
-          shape = "rectangle",
-          x = 568,
-          y = 310,
-          width = 102,
-          height = 30,
+          shape = "point",
+          x = 619,
+          y = 434,
+          width = 0,
+          height = 0,
           rotation = 0,
           visible = true,
-          properties = {
-            ["cutscene"] = "castle_town.cauldron"
-          }
+          properties = {}
+        },
+        {
+          id = 35,
+          name = "entry_bf",
+          class = "",
+          shape = "point",
+          x = 899,
+          y = 314,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 36,
+          name = "entry_2f",
+          class = "",
+          shape = "point",
+          x = 299,
+          y = 314,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
         }
       }
     },
@@ -241,74 +264,35 @@ return {
             ["map"] = "castle_2f",
             ["marker"] = "entry"
           }
-        }
-      }
-    },
-    {
-      type = "objectgroup",
-      draworder = "topdown",
-      id = 10,
-      name = "markers",
-      class = "",
-      visible = true,
-      opacity = 1,
-      offsetx = 0,
-      offsety = 0,
-      parallaxx = 1,
-      parallaxy = 1,
-      properties = {},
-      objects = {
+        },
         {
-          id = 33,
-          name = "spawn",
+          id = 10,
+          name = "",
           class = "",
-          shape = "point",
-          x = 619,
-          y = 434,
-          width = 0,
-          height = 0,
+          shape = "rectangle",
+          x = 560,
+          y = 352,
+          width = 120,
+          height = 112,
           rotation = 0,
+          gid = 171,
           visible = true,
           properties = {}
         },
         {
-          id = 34,
-          name = "entry",
+          id = 32,
+          name = "interactable",
           class = "",
-          shape = "point",
-          x = 619,
-          y = 434,
-          width = 0,
-          height = 0,
+          shape = "rectangle",
+          x = 568,
+          y = 310,
+          width = 102,
+          height = 30,
           rotation = 0,
           visible = true,
-          properties = {}
-        },
-        {
-          id = 35,
-          name = "entry_bf",
-          class = "",
-          shape = "point",
-          x = 899,
-          y = 314,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 36,
-          name = "entry_2f",
-          class = "",
-          shape = "point",
-          x = 299,
-          y = 314,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          properties = {}
+          properties = {
+            ["cutscene"] = "castle_town.cauldron"
+          }
         }
       }
     },
