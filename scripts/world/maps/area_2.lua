@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 22,
-  nextobjectid = 98,
+  nextobjectid = 101,
   backgroundcolor = { 0, 0, 0 },
   properties = {
     ["music"] = "castletown",
@@ -30,7 +30,7 @@ return {
     },
     {
       name = "castle_town_overlay",
-      firstgid = 345,
+      firstgid = 352,
       filename = "../tilesets/castle_town_overlay.tsx",
       exportfilename = "../tilesets/castle_town_overlay.lua"
     }
@@ -388,7 +388,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["map"] = "east_door",
+            ["map"] = "tutorial_room",
             ["marker"] = "entry"
           }
         },
@@ -535,70 +535,6 @@ return {
           gid = 342,
           visible = true,
           properties = {}
-        },
-        {
-          id = 90,
-          name = "transition",
-          class = "",
-          shape = "rectangle",
-          x = 472,
-          y = 813,
-          width = 87,
-          height = 23,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["map"] = "castle_dojo",
-            ["marker"] = "entry"
-          }
-        },
-        {
-          id = 87,
-          name = "transition",
-          class = "",
-          shape = "rectangle",
-          x = 520,
-          y = 569,
-          width = 105,
-          height = 24,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["marker"] = "entry_shop",
-            ["shop"] = "castle_town_shop"
-          }
-        },
-        {
-          id = 88,
-          name = "transition",
-          class = "",
-          shape = "rectangle",
-          x = 878,
-          y = 578,
-          width = 98,
-          height = 23,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["map"] = "castle_cafe",
-            ["marker"] = "entry"
-          }
-        },
-        {
-          id = 93,
-          name = "transition",
-          class = "",
-          shape = "rectangle",
-          x = 990,
-          y = 813,
-          width = 32,
-          height = 25,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["map"] = "castle_bakery",
-            ["marker"] = "entry"
-          }
         },
         {
           id = 18,
@@ -754,6 +690,101 @@ return {
           properties = {
             ["text1"] = "* Mama Miba![wait:5] Welcome to TOP Bakery!",
             ["text2"] = "* Our special chefs spin baked goods at the TOP of their class!"
+          }
+        },
+        {
+          id = 100,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 640,
+          y = 265,
+          width = 50,
+          height = 66,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["cutscene"] = "castle_town.book_pillar",
+            ["lmao"] = "I'm using a cutscene and no Kristal developer can stop me",
+            ["solid"] = "true"
+          }
+        },
+        {
+          id = 99,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 640,
+          y = 331,
+          width = 50,
+          height = 66,
+          rotation = 0,
+          gid = 351,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 90,
+          name = "transition",
+          class = "",
+          shape = "rectangle",
+          x = 472,
+          y = 813,
+          width = 87,
+          height = 23,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "castle_dojo",
+            ["marker"] = "entry"
+          }
+        },
+        {
+          id = 87,
+          name = "transition",
+          class = "",
+          shape = "rectangle",
+          x = 520,
+          y = 569,
+          width = 105,
+          height = 24,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["marker"] = "entry_shop",
+            ["shop"] = "castle_town_shop"
+          }
+        },
+        {
+          id = 88,
+          name = "transition",
+          class = "",
+          shape = "rectangle",
+          x = 878,
+          y = 578,
+          width = 98,
+          height = 23,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "castle_cafe",
+            ["marker"] = "entry"
+          }
+        },
+        {
+          id = 93,
+          name = "transition",
+          class = "",
+          shape = "rectangle",
+          x = 990,
+          y = 813,
+          width = 32,
+          height = 25,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "castle_bakery",
+            ["marker"] = "entry"
           }
         }
       }
@@ -957,7 +988,7 @@ return {
       id = 12,
       name = "collision",
       class = "",
-      visible = false,
+      visible = true,
       opacity = 1,
       offsetx = 0,
       offsety = 0,
@@ -989,7 +1020,7 @@ return {
           class = "",
           shape = "polygon",
           x = 920,
-          y = 240,
+          y = 241,
           width = 0,
           height = 0,
           rotation = 0,

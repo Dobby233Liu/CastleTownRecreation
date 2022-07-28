@@ -653,7 +653,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["map"] = "east_door",
+            ["map"] = "tutorial_room",
             ["marker"] = "entry"
           }
         },

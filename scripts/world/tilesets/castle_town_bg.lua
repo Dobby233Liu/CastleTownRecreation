@@ -23,7 +23,7 @@ return {
   },
   properties = {},
   wangsets = {},
-  tilecount = 34,
+  tilecount = 35,
   tiles = {
     {
       id = 3,
@@ -280,6 +280,12 @@ return {
       image = "../../../assets/sprites/world/castle_town/dojo_help.png",
       width = 80,
       height = 34
+    },
+    {
+      id = 38,
+      image = "../../../assets/sprites/world/castle_town/book_pillar.png",
+      width = 25,
+      height = 33
     }
   }
 }

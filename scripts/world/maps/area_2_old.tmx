@@ -134,7 +134,7 @@
   </object>
   <object id="45" name="transition" x="640" y="960" width="40" height="93">
    <properties>
-    <property name="map" value="east_door"/>
+    <property name="map" value="tutorial_room"/>
     <property name="marker" value="entry"/>
    </properties>
   </object>

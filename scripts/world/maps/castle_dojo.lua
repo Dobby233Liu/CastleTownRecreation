@@ -9,8 +9,8 @@ return {
   height = 12,
   tilewidth = 40,
   tileheight = 40,
-  nextlayerid = 10,
-  nextobjectid = 18,
+  nextlayerid = 11,
+  nextobjectid = 22,
   backgroundcolor = { 0, 0, 0 },
   properties = {
     ["music"] = "castletown"
@@ -25,8 +25,7 @@ return {
     {
       name = "castle_dojo",
       firstgid = 91,
-      filename = "../tilesets/castle_dojo.tsx",
-      exportfilename = "../tilesets/castle_dojo.lua"
+      filename = "../tilesets/castle_dojo.tsx"
     },
     {
       name = "castle_town_bg",
@@ -342,6 +341,21 @@ return {
           gid = 272,
           visible = true,
           properties = {}
+        },
+        {
+          id = 18,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 79,
+          y = 278,
+          width = 123,
+          height = 122,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text"] = "* (It's a bed for three people,[wait:5] or one three-headed person.)"
+          }
         }
       }
     },
@@ -403,6 +417,35 @@ return {
             ["map"] = "area_2",
             ["marker"] = "entry_dojo"
           }
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 10,
+      name = "objects_fx",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 21,
+          name = "dojo_fx",
+          class = "",
+          shape = "rectangle",
+          x = 0,
+          y = 0,
+          width = 640,
+          height = 480,
+          rotation = 0,
+          visible = true,
+          properties = {}
         }
       }
     }

@@ -216,7 +216,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["map"] = "area_2",
+            ["map"] = "tutorial_room",
             ["marker"] = "entry_e"
           }
         },
