@@ -78,7 +78,7 @@
   <object id="10" gid="171" x="560" y="352" width="120" height="112"/>
   <object id="32" name="interactable" x="568" y="310" width="102" height="30">
    <properties>
-    <property name="cutscene" value="castle_town.cauldron"/>
+    <property name="cutscene" value="castle_2f.cauldron"/>
    </properties>
   </object>
  </objectgroup>

@@ -224,7 +224,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["cutscene"] = "castle_town.renovating"
+            ["cutscene"] = "castle_2f.renovating"
           }
         }
       }

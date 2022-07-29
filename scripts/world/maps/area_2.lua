@@ -30,7 +30,7 @@ return {
     },
     {
       name = "castle_town_overlay",
-      firstgid = 358,
+      firstgid = 362,
       filename = "../tilesets/castle_town_overlay.tsx",
       exportfilename = "../tilesets/castle_town_overlay.lua"
     }
@@ -704,8 +704,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["cutscene"] = "castle_town.book_pillar",
-            ["lmao"] = "I'm using a cutscene and no Kristal developer can stop me",
+            ["cutscene"] = "area_2.book_pillar",
             ["solid"] = "true"
           }
         },

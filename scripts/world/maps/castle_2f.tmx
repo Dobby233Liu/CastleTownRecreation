@@ -57,7 +57,7 @@
   </object>
   <object id="24" name="interactable" x="1052" y="206" width="78" height="73">
    <properties>
-    <property name="cutscene" value="castle_town.renovating"/>
+    <property name="cutscene" value="castle_2f.renovating"/>
    </properties>
   </object>
  </objectgroup>

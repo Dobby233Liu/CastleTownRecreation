@@ -20,20 +20,4 @@ return {
             cutscene:text("* (There's no time to read books.)")
         end
     end,
-    cauldron = function(cutscene, me, chara, facing)
-        cutscene:text("* How 'bout a strawberry cake as a room-warming gift?", "surprise_smile", "susie")
-        cutscene:text("* There's a slice of cake in your fridge,[wait:5] Susie!", "pleased", "ralsei")
-        cutscene:text("* But it's not cauldron-fresh!", "blush", "susie")
-    end,
-    renovating = function(cutscene, me, chara, facing)
-        if me.interact_count > 1 then
-            cutscene:text("* Sorry,[wait:5] work in progress!", "wink", "ralsei")
-        else
-            cutscene:text("* Hey Ralsei,[wait:5] what's up here?", "smirk", "susie")
-            cutscene:text("* Oh,[wait:5] just more rooms I'm renovating!", "blush_smile", "ralsei")
-            cutscene:text("* ...[wait:5] so is your room up there?", "nervous", "susie")
-            cutscene:text("* Er,[wait:5] yes![wait:5] I still,[wait:5] um,[wait:5] haven't dusted it though...", "pleased", "ralsei")
-            cutscene:text("* Yeah,[wait:5] like we need to see your nerdy glasses collection anyway.", "nervous", "susie")
-        end
-    end,
 }
