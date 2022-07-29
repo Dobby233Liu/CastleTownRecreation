@@ -12,7 +12,9 @@ return {
   nextlayerid = 7,
   nextobjectid = 17,
   backgroundcolor = { 0, 0, 0 },
-  properties = {},
+  properties = {
+    ["music"] = "castletown"
+  },
   tilesets = {
     {
       name = "castle",

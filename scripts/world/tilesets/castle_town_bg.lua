@@ -295,15 +295,15 @@ return {
       animation = {
         {
           tileid = 39,
-          duration = 600
+          duration = 166
         },
         {
           tileid = 40,
-          duration = 600
+          duration = 166
         },
         {
           tileid = 41,
-          duration = 600
+          duration = 166
         }
       }
     },
@@ -327,15 +327,15 @@ return {
       animation = {
         {
           tileid = 42,
-          duration = 600
+          duration = 166
         },
         {
           tileid = 43,
-          duration = 600
+          duration = 166
         },
         {
           tileid = 44,
-          duration = 600
+          duration = 166
         }
       }
     },

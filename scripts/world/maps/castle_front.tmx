@@ -3,6 +3,9 @@
  <editorsettings>
   <export target="castle_front.lua" format="lua"/>
  </editorsettings>
+ <properties>
+  <property name="music" value="castletown"/>
+ </properties>
  <tileset firstgid="1" source="../tilesets/castle.tsx"/>
  <tileset firstgid="41" source="../tilesets/castle_town_bg.tsx"/>
  <imagelayer id="2" name="castle" offsetx="190" offsety="0">

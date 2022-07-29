@@ -128,9 +128,9 @@
  <tile id="39">
   <image width="200" height="160" source="../../../assets/sprites/world/castle_town/cauldron_under_glow_1.png"/>
   <animation>
-   <frame tileid="39" duration="600"/>
-   <frame tileid="40" duration="600"/>
-   <frame tileid="41" duration="600"/>
+   <frame tileid="39" duration="166"/>
+   <frame tileid="40" duration="166"/>
+   <frame tileid="41" duration="166"/>
   </animation>
  </tile>
  <tile id="40">
@@ -142,9 +142,9 @@
  <tile id="42">
   <image width="60" height="57" source="../../../assets/sprites/world/castle_town/cauldron_1.png"/>
   <animation>
-   <frame tileid="42" duration="600"/>
-   <frame tileid="43" duration="600"/>
-   <frame tileid="44" duration="600"/>
+   <frame tileid="42" duration="166"/>
+   <frame tileid="43" duration="166"/>
+   <frame tileid="44" duration="166"/>
   </animation>
  </tile>
  <tile id="43">

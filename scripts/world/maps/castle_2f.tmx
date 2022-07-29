@@ -3,6 +3,9 @@
  <editorsettings>
   <export target="castle_2f.lua" format="lua"/>
  </editorsettings>
+ <properties>
+  <property name="music" value="castletown"/>
+ </properties>
  <tileset firstgid="1" source="../tilesets/castle_inside.tsx"/>
  <tileset firstgid="129" source="../tilesets/castle_town_bg.tsx"/>
  <layer id="4" name="tiles" width="32" height="12" locked="1">
