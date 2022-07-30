@@ -9,10 +9,12 @@ return {
   height = 12,
   tilewidth = 40,
   tileheight = 40,
-  nextlayerid = 13,
-  nextobjectid = 23,
+  nextlayerid = 17,
+  nextobjectid = 42,
   backgroundcolor = { 0, 0, 0 },
-  properties = {},
+  properties = {
+    ["music"] = "castletown"
+  },
   tilesets = {
     {
       name = "castle_cardcastle",
@@ -323,6 +325,126 @@ return {
     {
       type = "objectgroup",
       draworder = "topdown",
+      id = 14,
+      name = "collision",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 23,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 160,
+          y = 80,
+          width = 360,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 24,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 480,
+          y = 120,
+          width = 40,
+          height = 240,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 25,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 360,
+          y = 320,
+          width = 120,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 26,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 360,
+          y = 360,
+          width = 40,
+          height = 120,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 27,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 240,
+          y = 320,
+          width = 40,
+          height = 160,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 28,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 120,
+          y = 320,
+          width = 120,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 29,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 120,
+          y = 80,
+          width = 40,
+          height = 240,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 31,
+          name = "",
+          class = "",
+          shape = "rectangle",
+          x = 160,
+          y = 120,
+          width = 130,
+          height = 100,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
       id = 12,
       name = "objects",
       class = "",
@@ -401,6 +523,167 @@ return {
             ["actor"] = "castle_lancerpainting",
             ["script"] = "castle_room_lancer_painting"
           }
+        },
+        {
+          id = 32,
+          name = "transition",
+          class = "",
+          shape = "rectangle",
+          x = 280,
+          y = 480,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 35,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 160,
+          y = 110,
+          width = 130,
+          height = 110,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text"] = "* (It's a bikeless bed.)"
+          }
+        },
+        {
+          id = 36,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 390,
+          y = 150,
+          width = 60,
+          height = 32,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["cutscene"] = "castle_room_lancer.music_player"
+          }
+        },
+        {
+          id = 37,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 420,
+          y = 210,
+          width = 20,
+          height = 30,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text"] = "* (It's some kind of digging implement.)"
+          }
+        },
+        {
+          id = 38,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 370,
+          y = 270,
+          width = 30,
+          height = 20,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text"] = "* (There's salsa buried in the ground here.)"
+          }
+        },
+        {
+          id = 39,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 320,
+          y = 210,
+          width = 30,
+          height = 20,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text"] = "* (It's a hole.[wait:5] Presumably dug for fun.)"
+          }
+        },
+        {
+          id = 40,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 270,
+          y = 250,
+          width = 30,
+          height = 20,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text"] = "* (It's a hole made recreationally.)"
+          }
+        },
+        {
+          id = 41,
+          name = "interactable",
+          class = "",
+          shape = "rectangle",
+          x = 190,
+          y = 260,
+          width = 30,
+          height = 20,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["text1"] = "* (You found 20 Rupys in the hole!)",
+            ["text2"] = "* (Unfortunately,[wait:5] that's not a useful currency here...)"
+          }
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 15,
+      name = "markers",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 33,
+          name = "entry",
+          class = "",
+          shape = "point",
+          x = 326,
+          y = 435,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 34,
+          name = "spawn",
+          class = "",
+          shape = "point",
+          x = 319,
+          y = 464,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
         }
       }
     }

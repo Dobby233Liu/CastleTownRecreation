@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" backgroundcolor="#000000" nextlayerid="13" nextobjectid="23">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" backgroundcolor="#000000" nextlayerid="17" nextobjectid="42">
  <editorsettings>
   <export target="castle_room_lancer.lua" format="lua"/>
  </editorsettings>
+ <properties>
+  <property name="music" value="castletown"/>
+ </properties>
  <tileset firstgid="1" source="../tilesets/castle_cardcastle.tsx"/>
  <tileset firstgid="145" source="../tilesets/castle_throneroom.tsx"/>
  <tileset firstgid="235" source="../tilesets/castle_town_bg.tsx"/>
@@ -41,6 +44,16 @@
   <object id="17" gid="174" x="270" y="280" width="40" height="40"/>
   <object id="18" gid="174" x="190" y="290" width="40" height="40"/>
  </objectgroup>
+ <objectgroup color="#0000ff" id="14" name="collision">
+  <object id="23" x="160" y="80" width="360" height="40"/>
+  <object id="24" x="480" y="120" width="40" height="240"/>
+  <object id="25" x="360" y="320" width="120" height="40"/>
+  <object id="26" x="360" y="360" width="40" height="120"/>
+  <object id="27" x="240" y="320" width="40" height="160"/>
+  <object id="28" x="120" y="320" width="120" height="40"/>
+  <object id="29" x="120" y="80" width="40" height="240"/>
+  <object id="31" x="160" y="120" width="130" height="100"/>
+ </objectgroup>
  <objectgroup color="#ff00ff" id="12" name="objects">
   <object id="19" name="npc" gid="286" x="300" y="90" width="40" height="40">
    <properties>
@@ -65,6 +78,51 @@
     <property name="actor" value="castle_lancerpainting"/>
     <property name="script" value="castle_room_lancer_painting"/>
    </properties>
+  </object>
+  <object id="32" name="transition" x="280" y="480" width="80" height="40"/>
+  <object id="35" name="interactable" x="160" y="110" width="130" height="110">
+   <properties>
+    <property name="text" value="* (It's a bikeless bed.)"/>
+   </properties>
+  </object>
+  <object id="36" name="interactable" x="390" y="150" width="60" height="32">
+   <properties>
+    <property name="cutscene" value="castle_room_lancer.music_player"/>
+   </properties>
+  </object>
+  <object id="37" name="interactable" x="420" y="210" width="20" height="30">
+   <properties>
+    <property name="text" value="* (It's some kind of digging implement.)"/>
+   </properties>
+  </object>
+  <object id="38" name="interactable" x="370" y="270" width="30" height="20">
+   <properties>
+    <property name="text" value="* (There's salsa buried in the ground here.)"/>
+   </properties>
+  </object>
+  <object id="39" name="interactable" x="320" y="210" width="30" height="20">
+   <properties>
+    <property name="text" value="* (It's a hole.[wait:5] Presumably dug for fun.)"/>
+   </properties>
+  </object>
+  <object id="40" name="interactable" x="270" y="250" width="30" height="20">
+   <properties>
+    <property name="text" value="* (It's a hole made recreationally.)"/>
+   </properties>
+  </object>
+  <object id="41" name="interactable" x="190" y="260" width="30" height="20">
+   <properties>
+    <property name="text1" value="* (You found 20 Rupys in the hole!)"/>
+    <property name="text2" value="* (Unfortunately,[wait:5] that's not a useful currency here...)"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#aa00ff" id="15" name="markers">
+  <object id="33" name="entry" x="326" y="435">
+   <point/>
+  </object>
+  <object id="34" name="spawn" x="319" y="464">
+   <point/>
   </object>
  </objectgroup>
 </map>
