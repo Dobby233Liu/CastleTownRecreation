@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 9,
-  nextobjectid = 25,
+  nextobjectid = 26,
   backgroundcolor = { 0, 0, 0 },
   properties = {
     ["music"] = "castletown"
@@ -225,6 +225,22 @@ return {
           visible = true,
           properties = {
             ["cutscene"] = "castle_2f.renovating"
+          }
+        },
+        {
+          id = 25,
+          name = "script",
+          class = "",
+          shape = "rectangle",
+          x = 806,
+          y = 240,
+          width = 55,
+          height = 24,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["once"] = "false",
+            ["script"] = "castle_lancer_door"
           }
         }
       }

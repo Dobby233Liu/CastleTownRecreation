@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="32" height="12" tilewidth="40" tileheight="40" infinite="0" backgroundcolor="#000000" nextlayerid="9" nextobjectid="25">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="32" height="12" tilewidth="40" tileheight="40" infinite="0" backgroundcolor="#000000" nextlayerid="9" nextobjectid="26">
  <editorsettings>
   <export target="castle_2f.lua" format="lua"/>
  </editorsettings>
@@ -58,6 +58,12 @@
   <object id="24" name="interactable" x="1052" y="206" width="78" height="73">
    <properties>
     <property name="cutscene" value="castle_2f.renovating"/>
+   </properties>
+  </object>
+  <object id="25" name="script" x="806" y="240" width="55" height="24">
+   <properties>
+    <property name="once" value="false"/>
+    <property name="script" value="castle_lancer_door"/>
    </properties>
   </object>
  </objectgroup>

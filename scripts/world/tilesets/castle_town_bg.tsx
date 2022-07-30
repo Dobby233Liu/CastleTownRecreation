@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.0" name="castle_town_bg" tilewidth="640" tileheight="318" tilecount="45" columns="0">
+<tileset version="1.9" tiledversion="1.9.0" name="castle_town_bg" tilewidth="640" tileheight="318" tilecount="48" columns="0">
  <editorsettings>
   <export target="castle_town_bg.lua" format="lua"/>
  </editorsettings>
@@ -164,5 +164,14 @@
  </tile>
  <tile id="48">
   <image width="126" height="184" source="../../../assets/sprites/world/castle_town/door_susie.png"/>
+ </tile>
+ <tile id="49">
+  <image width="97" height="98" source="../../../assets/sprites/world/castle_town/room_kris_manual_stand.png"/>
+ </tile>
+ <tile id="50">
+  <image width="38" height="38" source="../../../assets/sprites/world/castle_town/room_kris_moss.png"/>
+ </tile>
+ <tile id="51">
+  <image width="20" height="20" source="../../../assets/sprites/world/castle_town/lancerpainting.png"/>
  </tile>
 </tileset>
