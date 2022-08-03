@@ -57,25 +57,25 @@
  <objectgroup color="#ff00ff" id="12" name="objects">
   <object id="19" name="npc" gid="286" x="300" y="90" width="40" height="40">
    <properties>
-    <property name="actor" value="castle_lancerpainting"/>
+    <property name="actor" value="castle_town/lancerpainting"/>
     <property name="script" value="castle_room_lancer_painting"/>
    </properties>
   </object>
   <object id="20" name="npc" gid="286" x="340" y="90" width="40" height="40">
    <properties>
-    <property name="actor" value="castle_lancerpainting"/>
+    <property name="actor" value="castle_town/lancerpainting"/>
     <property name="script" value="castle_room_lancer_painting"/>
    </properties>
   </object>
   <object id="21" name="npc" gid="286" x="380" y="90" width="40" height="40">
    <properties>
-    <property name="actor" value="castle_lancerpainting"/>
+    <property name="actor" value="castle_town/lancerpainting"/>
     <property name="script" value="castle_room_lancer_painting"/>
    </properties>
   </object>
   <object id="22" name="npc" gid="286" x="420" y="90" width="40" height="40">
    <properties>
-    <property name="actor" value="castle_lancerpainting"/>
+    <property name="actor" value="castle_town/lancerpainting"/>
     <property name="script" value="castle_room_lancer_painting"/>
    </properties>
   </object>

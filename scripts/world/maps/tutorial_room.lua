@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 9,
-  nextobjectid = 19,
+  nextobjectid = 21,
   backgroundcolor = { 0, 0, 0 },
   properties = {
     ["music"] = "castletown"
@@ -24,8 +24,7 @@ return {
     {
       name = "castle_checkerboard",
       firstgid = 41,
-      filename = "../tilesets/castle_checkerboard.tsx",
-      exportfilename = "../tilesets/castle_checkerboard.lua"
+      filename = "../tilesets/castle_checkerboard.tsx"
     }
   },
   layers = {
@@ -233,7 +232,7 @@ return {
           class = "",
           shape = "point",
           x = 29,
-          y = 394,
+          y = 384,
           width = 0,
           height = 0,
           rotation = 0,
@@ -315,6 +314,39 @@ return {
           properties = {
             ["map"] = "east_door",
             ["marker"] = "entry"
+          }
+        },
+        {
+          id = 19,
+          name = "npc",
+          class = "",
+          shape = "point",
+          x = 684,
+          y = 266,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["actor"] = "castle_town/coody",
+            ["text"] = "* I'm a worm. I don't understand taxes and values."
+          }
+        },
+        {
+          id = 20,
+          name = "npc",
+          class = "",
+          shape = "point",
+          x = 436,
+          y = 148,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["actor"] = "castle_town/mrelegance",
+            ["text1"] = "* We're'n building up the area to be a bit'n more board-like.",
+            ["text2"] = "* The ponmen'll be happy,[wait:5] too."
           }
         }
       }

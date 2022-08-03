@@ -1,13 +1,17 @@
-local actor, super = Class(Actor, "castle_lancerpainting")
-
--- Why
+local actor, super = Class(Actor, "castle_town/mrelegance")
 
 function actor:init()
     super:init(self)
 
+    -- Display name (optional)
+    self.name = "Mr. Elegance"
+
     -- Width and height for this actor, used to determine its center
-    self.width = 20
-    self.height = 20
+    self.width = 29
+    self.height = 31
+
+    -- Hitbox for this actor in the overworld (optional, uses width and height by default)
+    self.hitbox = {2, 20, 24, 11}
 
     -- Color for this actor used in outline areas (optional, defaults to red)
     self.color = {0, 0, 0}
@@ -16,9 +20,9 @@ function actor:init()
     self.flip = nil
 
     -- Path to this actor's sprites (defaults to "")
-    self.path = "world/castle_town"
+    self.path = "world/castle_town/npcs/mrelegance"
     -- This actor's default sprite or animation, relative to the path (defaults to "")
-    self.default = "lancerpainting"
+    self.default = "idle"
 
     -- Sound to play when this actor speaks (optional)
     self.voice = nil
@@ -31,16 +35,15 @@ function actor:init()
     self.can_blush = false
 
     -- Table of talk sprites and their talk speeds (default 0.25)
-    self.talk_sprites = {}
+    self.talk_sprites = {
+        ["idle"] = 0.25
+    }
 
     -- Table of sprite animations
     self.animations = {}
 
     -- Table of sprite offsets (indexed by sprite name)
-    self.offsets = {
-        ["lancerpainting"] = {0, 0},
-        ["lancerpainting_bluh"] = {0, 0},
-    }
+    self.offsets = {}
 end
 
 return actor

@@ -469,7 +469,7 @@ return {
           gid = 286,
           visible = true,
           properties = {
-            ["actor"] = "castle_lancerpainting",
+            ["actor"] = "castle_town/lancerpainting",
             ["script"] = "castle_room_lancer_painting"
           }
         },
@@ -486,7 +486,7 @@ return {
           gid = 286,
           visible = true,
           properties = {
-            ["actor"] = "castle_lancerpainting",
+            ["actor"] = "castle_town/lancerpainting",
             ["script"] = "castle_room_lancer_painting"
           }
         },
@@ -503,7 +503,7 @@ return {
           gid = 286,
           visible = true,
           properties = {
-            ["actor"] = "castle_lancerpainting",
+            ["actor"] = "castle_town/lancerpainting",
             ["script"] = "castle_room_lancer_painting"
           }
         },
@@ -520,7 +520,7 @@ return {
           gid = 286,
           visible = true,
           properties = {
-            ["actor"] = "castle_lancerpainting",
+            ["actor"] = "castle_town/lancerpainting",
             ["script"] = "castle_room_lancer_painting"
           }
         },

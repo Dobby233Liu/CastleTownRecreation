@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="35" height="12" tilewidth="40" tileheight="40" infinite="0" backgroundcolor="#000000" nextlayerid="9" nextobjectid="19">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="35" height="12" tilewidth="40" tileheight="40" infinite="0" backgroundcolor="#000000" nextlayerid="9" nextobjectid="21">
  <editorsettings>
   <export target="tutorial_room.lua" format="lua"/>
  </editorsettings>
@@ -80,6 +80,21 @@
     <property name="map" value="east_door"/>
     <property name="marker" value="entry"/>
    </properties>
+  </object>
+  <object id="19" name="npc" x="684" y="266">
+   <properties>
+    <property name="actor" value="castle_town/coody"/>
+    <property name="text" value="* I'm a worm. I don't understand taxes and values."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" name="npc" x="436" y="148">
+   <properties>
+    <property name="actor" value="castle_town/mrelegance"/>
+    <property name="text1" value="* We're'n building up the area to be a bit'n more board-like."/>
+    <property name="text2" value="* The ponmen'll be happy,[wait:5] too."/>
+   </properties>
+   <point/>
   </object>
  </objectgroup>
 </map>
