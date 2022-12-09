@@ -1,10 +1,11 @@
 # CastleTownRecreation
 
-A recreation of the whole Castle Town area in Deltarune Ch2 for Kristal
+A (kinda partial) recreation of the whole Castle Town area in Deltarune Ch2 for [Kristal](https://github.com/KristalTeam/Kristal), a Deltarune fangame engine.
 
 ## Installation
 
-TODO, I'm not very sure right now.
+TODO! I'm not really sure right now. This is currently packaged in the form of a normal mod, so you can probably copy files over.
+Since you will absolutely need to edit the maps to a certain degree, I don't think packaging this as a library will be a good choice.
 
 ## Small note
 
