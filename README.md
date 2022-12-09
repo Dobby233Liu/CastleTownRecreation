@@ -10,7 +10,10 @@ Since you will absolutely need to edit the maps to a certain degree, I don't thi
 ## Small note
 
 If this little thing helped with your modding, it would be very nice if you would credit me.
-For example, you can put my pseudonym (Dobby233Liu) in your mod's credits file / in-game credits sequence, the mod's description on its hosting sites etc.
+For example, you can put my pseudonym (Dobby233Liu), in...
+* Your mod's credits info file / in-game credits sequence
+* Your mod's description on its hosting sites or README file
+etc.
 
 ## Development setup
 
