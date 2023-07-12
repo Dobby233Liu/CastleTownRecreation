@@ -293,7 +293,7 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["cutscene"] = "castle_2f.cauldron"
+            ["cutscene"] = "castle_1f.cauldron"
           }
         }
       }
