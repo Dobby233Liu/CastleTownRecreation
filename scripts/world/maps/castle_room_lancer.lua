@@ -537,7 +537,8 @@ return {
           visible = true,
           properties = {
             ["map"] = "castle_2f",
-            ["marker"] = "entry_lancer"
+            ["marker"] = "entry_lancer",
+            ["sound"] = "reverse_splat"
           }
         },
         {

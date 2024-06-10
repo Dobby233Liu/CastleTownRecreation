@@ -1,7 +1,7 @@
 return {
-  version = "1.9",
+  version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.9.0",
+  tiledversion = "1.10.2",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -79,7 +79,7 @@ return {
         {
           id = 1,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 992,
           y = 280,
@@ -93,7 +93,7 @@ return {
         {
           id = 2,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 239,
           y = 280,
@@ -107,7 +107,7 @@ return {
         {
           id = 3,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 504,
           y = 280,
@@ -121,7 +121,7 @@ return {
         {
           id = 4,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 768,
           y = 310,
@@ -151,7 +151,7 @@ return {
         {
           id = 8,
           name = "transition",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 80,
           y = 480,
@@ -167,7 +167,7 @@ return {
         {
           id = 10,
           name = "transition",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 255,
           y = 240,
@@ -183,7 +183,7 @@ return {
         {
           id = 14,
           name = "transition",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 530,
           y = 234,
@@ -199,7 +199,7 @@ return {
         {
           id = 16,
           name = "transition",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 806,
           y = 240,
@@ -209,13 +209,14 @@ return {
           visible = true,
           properties = {
             ["map"] = "castle_room_lancer",
-            ["marker"] = "entry"
+            ["marker"] = "entry",
+            ["sound"] = "splat"
           }
         },
         {
           id = 24,
           name = "interactable",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1052,
           y = 206,
@@ -225,22 +226,6 @@ return {
           visible = true,
           properties = {
             ["cutscene"] = "castle_2f.renovating"
-          }
-        },
-        {
-          id = 25,
-          name = "script",
-          class = "",
-          shape = "rectangle",
-          x = 806,
-          y = 240,
-          width = 55,
-          height = 24,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["once"] = "false",
-            ["script"] = "castle_lancer_door"
           }
         }
       }
@@ -262,7 +247,7 @@ return {
         {
           id = 19,
           name = "entry",
-          class = "",
+          type = "",
           shape = "point",
           x = 139,
           y = 435,
@@ -275,7 +260,7 @@ return {
         {
           id = 20,
           name = "spawn",
-          class = "",
+          type = "",
           shape = "point",
           x = 139,
           y = 355,
@@ -288,7 +273,7 @@ return {
         {
           id = 21,
           name = "entry_kris",
-          class = "",
+          type = "",
           shape = "point",
           x = 298,
           y = 300,
@@ -301,7 +286,7 @@ return {
         {
           id = 22,
           name = "entry_susie",
-          class = "",
+          type = "",
           shape = "point",
           x = 570,
           y = 300,
@@ -314,7 +299,7 @@ return {
         {
           id = 23,
           name = "entry_lancer",
-          class = "",
+          type = "",
           shape = "point",
           x = 843,
           y = 304,
@@ -343,7 +328,7 @@ return {
         {
           id = 5,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1240,
           y = 80,
@@ -356,7 +341,7 @@ return {
         {
           id = 6,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 200,
           y = 360,
@@ -369,7 +354,7 @@ return {
         {
           id = 7,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 40,
           y = 80,
@@ -382,7 +367,7 @@ return {
         {
           id = 9,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 80,
           y = 80,
@@ -395,7 +380,7 @@ return {
         {
           id = 12,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 327,
           y = 80,
@@ -408,7 +393,7 @@ return {
         {
           id = 15,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 600,
           y = 80,
@@ -421,7 +406,7 @@ return {
         {
           id = 18,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 861,
           y = 80,

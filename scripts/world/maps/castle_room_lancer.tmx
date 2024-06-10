@@ -83,6 +83,7 @@
    <properties>
     <property name="map" value="castle_2f"/>
     <property name="marker" value="entry_lancer"/>
+    <property name="sound" value="reverse_splat"/>
    </properties>
   </object>
   <object id="35" name="interactable" x="160" y="110" width="130" height="110">
